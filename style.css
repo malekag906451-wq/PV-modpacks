@@ -23,4 +23,9 @@ body {
     min-width: 75px;
     height: 35px;
     font-size: 14px;
+    transition: 0.1s;
+}
+
+#ModpackDownload:hover {
+    transform: scale(0.9);
 }
