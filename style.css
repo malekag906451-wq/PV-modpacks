@@ -1,4 +1,4 @@
-﻿* {
+* {
     box-sizing: border-box;
     font-family: "Shantell Sans", cursive;
     font-optical-sizing: auto;
@@ -11,6 +11,7 @@ body {
     background-color: dimgray;
     justify-items: center;
 }
+
 .ModpackDesc {
     text-align: center;
 }
@@ -24,8 +25,13 @@ body {
     height: 35px;
     font-size: 14px;
     transition: 0.1s;
+    cursor: pointer;
 }
 
-#ModpackDownload:hover {
-    transform: scale(0.9);
+#ModpackDownload:active {
+    transform: scale(0.97);
+}
+
+.hr {
+    height: 100px;
 }
